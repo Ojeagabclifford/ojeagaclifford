@@ -48,7 +48,7 @@ body
 .off-screen-menu
 {
     height: 100vh;
-    top:100px;
+    top:73px;
     position: fixed;
     width: 68%;
     max-width: 80%;
