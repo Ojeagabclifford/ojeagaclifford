@@ -5,6 +5,35 @@
 }
 
 
+h1 {
+    
+    font-size: 1.156rem; /* 68% of 1.7rem */
+}
+
+header img {
+ 
+    width: 6.8%; /* 68% of 10% */
+}
+
+.hero-img img {
+   
+    width: 61.2%; /* 68% of 90% */
+   
+    height: 204px; /* 68% of 300px */
+}
+
+p.strategy {
+    font-size: 3.30rem; /* Original */
+    font-size: 2.244rem; /* 68% of 3.30rem */
+}
+
+p.beauty {
+    
+    font-size: 1.36rem; /* 68% of 2rem */
+ 
+    padding: 20.4px; /* 68% of 30px */
+}
+
 
 body
 {
@@ -21,7 +50,7 @@ body
     height: 100vh;
     top:100px;
     position: fixed;
-    width: 100%;
+    width: 68%;
     max-width: 80%;
     right: -100%;
     transition: .3s ease;
@@ -73,8 +102,8 @@ nav{
 .ham-menu span
 {
     
-    height: 2px;
-    width: 80%;
+    height: 1.6px;
+    width: 68%;
     /* margin: 0%; */
     padding: 0%;
     background: rgb(13, 3, 13);
@@ -91,10 +120,9 @@ nav{
 {
     top:25%
 }
-.ham-menu span:nth-child(3)
-{
-    top:75%
-}
+
+
+
 header
 {
     /* position: fixed; */
@@ -118,7 +146,7 @@ header
 header img{
     grid-column: 1 / span 2;
     grid-row: 1;
-    width: 10%;
+    /* width: 6.8%; */
     margin-bottom: 5px;
     box-shadow: 1px 1px 1px 1px white;
     animation-name: mi;
@@ -229,7 +257,7 @@ main{
     /* height: 100vh; */
 }
 h2{
-    font-size: 4.5rem;
+    font-size: 3.6rem;
     /* padding: 10px; */
     font-weight: 400;
     text-align:left;
@@ -248,10 +276,10 @@ h2{
 }
 .strategy
 {
-    width: 80%;
+    width: 68%;
     text-align: right;
     margin-left: auto;
-    font-size: 3.30rem;
+    font-size: 2.244rem;
     padding-right: 20px;
     margin-top: 0;
     /* font-family:  'Helvetica'; */
@@ -261,7 +289,7 @@ h2{
 {
     font-size: 20px;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.2rem;
     /* font-weight:100; */
     /* font-stretch: extra-expanded; */
     /* word-spacing: 10px; */
@@ -285,7 +313,7 @@ body{
 
 main a{
     color: black;
-    font-size: 1.3rem;
+    font-size: 0.884rem;
     margin-top: 0;
     padding: 30px;
 }
@@ -297,7 +325,7 @@ main a{
     margin-top: 20px;
 }
 .gallery img{
-    width: 100%;
+    width: 68%;
     text-align: center;
 
     
@@ -387,7 +415,7 @@ footer{
     text-decoration: none;
     padding: 15px;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.02rem;
     color: black;
     font-family: "Lato", sans-serif;
     font-weight: 380;
